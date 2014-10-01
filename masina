@@ -56,9 +56,9 @@ $stippled_hr
 I/O:
 
  Write: $alignr $diskio_write
-${diskiograph_write 20}
+${diskiograph_write}
  Read: $alignr $diskio_read
-${diskiograph_read 20}
+${diskiograph_read}
 
 ROOT: $alignr ${fs_free /} / ${fs_size /}
 ${fs_bar 3 /}
@@ -98,4 +98,3 @@ Mem usage$color
  ${top_mem name 2} $alignr ${top_mem pid 2} ${top_mem cpu 2} ${top_mem mem 2}
  ${top_mem name 3} $alignr ${top_mem pid 3} ${top_mem cpu 3} ${top_mem mem 3}
 
-${acpitemp}
