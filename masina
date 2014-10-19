@@ -64,8 +64,8 @@ ROOT: $alignr ${fs_free /} / ${fs_size /}
 ${fs_bar 3 /}
 HOME: $alignr ${fs_free /home} / ${fs_size /home}
 ${fs_bar 3 /home}
-LOG: $alignr ${fs_free /var/log} / ${fs_size /var/log}
-${fs_bar 3 /var/log}
+LOG: $alignr ${fs_free /var} / ${fs_size /var}
+${fs_bar 3 /var}
 OPT: $alignr ${fs_free /opt} / ${fs_size /opt}
 ${fs_bar 3 /opt}
 
