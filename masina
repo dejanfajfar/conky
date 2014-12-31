@@ -1,6 +1,6 @@
-# my conky configuration!
+# Conky configuration for masina
 
-background no
+background yes
 xftfont Ubuntu:size=8
 xftalpha 0.8
 update_interval 3.0
@@ -19,7 +19,7 @@ draw_graph_borders yes
 default_color white
 default_shade_color black
 alignment top_right
-gap_x 1940
+gap_x 1980
 gap_y 15
 no_buffers yes
 cpu_avg_samples 2
